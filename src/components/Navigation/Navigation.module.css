@@ -1,0 +1,52 @@
+.Navigation {
+    display: flex;
+    background: rgb(32, 30, 46);
+    height: 70px;
+    color: #fff;
+    align-items: center;
+
+}
+.Navigation .NavContainer {
+    display: flex ;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.Navigation .NavContainer ul{
+    display: flex ;
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+.Navigation .NavContainer ul a{
+    padding-right: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 35px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .Navigation .NavContainer ul a{
+        font-size: medium;
+    }
+
+    .logo {
+        font-size:x-large;
+    }
+}
+@media only screen and (max-width: 510px) {
+
+    .Navigation .NavContainer ul a{
+        font-size: small;
+    }
+
+    .logo {
+        font-size: medium;
+    }
+}

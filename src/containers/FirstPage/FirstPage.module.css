@@ -1,0 +1,14 @@
+.FirstPage {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(110deg, rgb(64, 83, 94) 20%, rgb(46, 58, 88) 60%) ;
+    padding: 120px 0 200px;
+}
+
+.FirstPage h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+

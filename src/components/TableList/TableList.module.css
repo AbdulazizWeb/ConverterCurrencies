@@ -1,0 +1,13 @@
+.TableList {
+    height: 70px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(116, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.TableList:hover {
+    box-shadow: 0 0 10px rgb(37, 37, 37);
+}
